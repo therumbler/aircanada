@@ -1,6 +1,6 @@
 <template>
   <div id="main">
-    <h1>Air Canada Flight Status</h1>
+    <h1>🇨🇦 Air Canada Flight Status</h1>
     <NuxtPage />
   </div>
 </template>
@@ -21,7 +21,7 @@ video {
 <script setup>
 // window.HELP_IMPROVE_VIDEOJS = false;
 useHead({
-  title: "Air Canada Flight Status",
+  title: "🇨🇦 Air Canada Flight Status",
   script: [
 
   ],
