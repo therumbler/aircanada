@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h2>Index</h2>
+  <h2>Search</h2>
   <form class="form" @submit.prevent="performSearch">
       <input type="text" v-model="flightNumber" placeholder="Search"/>
       <select v-model="date" id="date" name="date">

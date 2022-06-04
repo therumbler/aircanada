@@ -19,7 +19,6 @@ video {
 }
 </style>
 <script setup>
-// window.HELP_IMPROVE_VIDEOJS = false;
 useHead({
   title: "🇨🇦 Air Canada Flight Status",
   script: [
