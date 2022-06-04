@@ -17,6 +17,11 @@ video {
   margin-right: auto;
   margin-left: auto;
 }
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #2e3440;
+    color: white;
+  }
 </style>
 <script setup>
 useHead({
@@ -25,7 +30,10 @@ useHead({
 
   ],
   link: [
-
+      {
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap",
+        rel: "stylesheet"
+      }
   ],
 });
 </script>
